@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anoop.myprojects.eventapplication.AddResult">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/colorPrimarylight"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Add Results"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:background="@drawable/loginback"
+            android:textColor="@color/colorAccent"
+
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+
+        <GridLayout
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:columnCount="1"
+            android:padding="5dp"
+            android:background="@drawable/loginback"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="Result Name :"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:id="@+id/eventname"
+                    android:layout_height="wrap_content"
+                    android:hint="Result Name"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="Description :"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:id="@+id/eventdesc"
+                    android:layout_height="wrap_content"
+                    android:hint="Description"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="Date :"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:id="@+id/date"
+                    android:layout_height="wrap_content"
+                    android:hint="mm/dd/yyyy"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="Organized by :"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:id="@+id/organized"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="Prize :"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:id="@+id/prize"
+                    android:layout_height="wrap_content"
+                    android:hint="Prize Name"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="Winner 1 :"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:id="@+id/winner1"
+                    android:layout_height="wrap_content"
+                    android:hint="winner 1"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="Winner 2 :"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:id="@+id/winner2"
+                    android:layout_height="wrap_content"
+                    android:hint="winner 2"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.3"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="Winner 3 :"/>
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:id="@+id/winner3"
+                    android:layout_height="wrap_content"
+                    android:hint="winner 3.."/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+        </GridLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:weightSum="1"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:id="@+id/addresult"
+                android:background="@drawable/loginback"
+                android:onClick="addResults"
+                android:text="Add result"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

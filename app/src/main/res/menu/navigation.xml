@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/todayevent"
+        android:icon="@drawable/cal"
+        android:title="Today"
+        />
+
+    <item
+        android:id="@+id/upcomingevent"
+        android:icon="@drawable/noti"
+        android:title="Upcoming" />
+
+    <item
+        android:id="@+id/resultevent"
+        android:icon="@drawable/results"
+        android:title="Results" />
+
+    <item
+        android:id="@+id/aboutus"
+        android:icon="@drawable/about"
+        android:title="Aboutus" />
+
+</menu>

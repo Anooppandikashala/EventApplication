@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    tools:context="anoop.myprojects.eventapplication.Login">
+
+    <TextView
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Admin Login"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/back">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:id="@+id/txtUsername"
+            android:background="@drawable/btnbackgg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="10dp"
+            android:ems="10"
+            android:padding="10dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/txtPassword"
+            android:background="@drawable/btnbackgg"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:paddingLeft="10dp"
+            android:padding="10dp"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="20dp"
+            android:text="Login"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:ems="7"
+            android:background="@drawable/loginback"
+            android:id="@+id/btnLogin"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
